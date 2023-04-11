@@ -1,4 +1,4 @@
-function hasTargetSum(arr, target) {
+  function hasTargetSum(arr, target) {
   const complements = new Set();
   for (let i = 0; i < arr.length; i++) {
     const num = arr[i];
